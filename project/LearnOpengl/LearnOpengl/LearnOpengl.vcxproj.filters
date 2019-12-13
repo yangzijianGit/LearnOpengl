@@ -18,8 +18,31 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Lesson01.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lesson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson01.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson02.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

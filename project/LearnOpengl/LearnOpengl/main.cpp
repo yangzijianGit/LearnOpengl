@@ -8,6 +8,9 @@
 #include <glad/glad.h>
 #include <glfw3.h>
 #include <iostream>
+#include "Lesson.h"
+#include "Lesson01.h"
+#include "Lesson02.h"
 
 void framebuffer_size_callback(GLFWwindow* pWindow, int nWidth, int nHeight)
 {
@@ -27,9 +30,6 @@ void setBackgroundColor()
 	glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 }
-
-
-
 
 int main()
 {
@@ -62,18 +62,25 @@ int main()
 	glfwSetFramebufferSizeCallback(pWindow, framebuffer_size_callback);
 	setBackgroundColor();
 	// render 
+	glfwSwapBuffers(pWindow);
+	setBackgroundColor();
+
+	Lesson* pLesson = new Lesson02();
+	pLesson->prefix();
 	while (!glfwWindowShouldClose(pWindow))
 	{
 		// input control
 		processInput(pWindow);
 		// gl render command
 		//...
-
+		pLesson->show();
 
 		// gl render command end
 		glfwSwapBuffers(pWindow);
 		glfwPollEvents();
 	}
+	pLesson->over();
+	delete pLesson;
 	glfwTerminate();
 
 	return 0;

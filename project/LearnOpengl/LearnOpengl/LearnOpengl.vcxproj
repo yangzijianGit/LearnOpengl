@@ -112,13 +112,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Lesson.cpp" />
     <ClCompile Include="Lesson01.cpp" />
+    <ClCompile Include="Lesson02.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Glad\Glad.vcxproj">
       <Project>{3aa371ec-cb6e-42ad-a64c-0b6d094e32c0}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lesson.h" />
+    <ClInclude Include="Lesson01.h" />
+    <ClInclude Include="Lesson02.h" />
+    <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
