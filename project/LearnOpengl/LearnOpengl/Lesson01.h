@@ -6,8 +6,6 @@
 class Lesson01 : public Lesson
 {
 public:
-	Lesson01();
-	~Lesson01();
 
 	// 绘制开始处理
 	virtual void prefix() override;

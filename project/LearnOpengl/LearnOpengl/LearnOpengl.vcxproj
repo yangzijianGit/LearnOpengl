@@ -115,7 +115,11 @@
     <ClCompile Include="Lesson.cpp" />
     <ClCompile Include="Lesson01.cpp" />
     <ClCompile Include="Lesson02.cpp" />
+    <ClCompile Include="Lesson03.cpp" />
+    <ClCompile Include="Lesson04.cpp" />
+    <ClCompile Include="Lesson05.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +131,10 @@
     <ClInclude Include="Lesson.h" />
     <ClInclude Include="Lesson01.h" />
     <ClInclude Include="Lesson02.h" />
+    <ClInclude Include="Lesson03.h" />
+    <ClInclude Include="Lesson04.h" />
+    <ClInclude Include="Lesson05.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

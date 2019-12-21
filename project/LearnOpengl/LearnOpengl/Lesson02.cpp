@@ -1,20 +1,11 @@
 #include "Lesson02.h"
 #include "Util.h"
 
-Lesson02::Lesson02()
-{
-
-}
-
-
-Lesson02::~Lesson02()
-{
-
-}
 
 // 绘制开始处理
 void Lesson02::prefix()
 {
+	util::showGlInfo();
 	glGenVertexArrays(1, &VAO);
 	glBindVertexArray(VAO);
 
@@ -27,6 +18,9 @@ void Lesson02::prefix()
 	glGenBuffers(1, &EBO);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+
+	glVertexAttribPointer(0, 3, GL_FLOAT, false, 3 * sizeof(float), 0);
+	glEnableVertexAttribArray(0);
 
 	unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
 	glShaderSource(vertexShader, 1, &verticesBufferCode, 0);
@@ -47,6 +41,8 @@ void Lesson02::prefix()
 	glDeleteShader(vertexShader);
 	glDeleteShader(fragmentShader);
 
+	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+	glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 }
 
 // 循环绘制

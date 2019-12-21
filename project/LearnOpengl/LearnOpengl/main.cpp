@@ -11,6 +11,9 @@
 #include "Lesson.h"
 #include "Lesson01.h"
 #include "Lesson02.h"
+#include "Lesson03.h"
+#include "Lesson04.h"
+#include "Lesson05.h"
 
 void framebuffer_size_callback(GLFWwindow* pWindow, int nWidth, int nHeight)
 {
@@ -60,17 +63,18 @@ int main()
 	glViewport(0, 0, 800, 600);
 	// 设置窗口大小改变时， 回调函数
 	glfwSetFramebufferSizeCallback(pWindow, framebuffer_size_callback);
-	setBackgroundColor();
 	// render 
-	glfwSwapBuffers(pWindow);
-	setBackgroundColor();
 
-	Lesson* pLesson = new Lesson02();
+
+	Lesson* pLesson = new Lesson05();
 	pLesson->prefix();
 	while (!glfwWindowShouldClose(pWindow))
 	{
 		// input control
 		processInput(pWindow);
+		// 渲染
+		// 清除颜色缓冲
+		setBackgroundColor();
 		// gl render command
 		//...
 		pLesson->show();

@@ -28,3 +28,10 @@ void util::showLinkShaderError(unsigned int program)
 	}
 }
 
+
+void util::showGlInfo()
+{
+	int nrAttributes;
+	glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &nrAttributes);
+	std::cout << "Maximun nr of vertex attributes supported:" << nrAttributes << std::endl;
+}
