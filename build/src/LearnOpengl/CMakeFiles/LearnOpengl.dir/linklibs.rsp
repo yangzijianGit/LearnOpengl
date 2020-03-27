@@ -1,0 +1,1 @@
+  -LF:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/../../build/src/glad  -LF:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/../../build/src/glfw-3.3/src  ../glad/libglad.a -lglfw3 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

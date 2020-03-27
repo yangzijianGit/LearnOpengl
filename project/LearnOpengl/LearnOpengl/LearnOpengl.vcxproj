@@ -118,6 +118,7 @@
     <ClCompile Include="Lesson03.cpp" />
     <ClCompile Include="Lesson04.cpp" />
     <ClCompile Include="Lesson05.cpp" />
+    <ClCompile Include="Lesson06.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Util.cpp" />
@@ -134,6 +135,7 @@
     <ClInclude Include="Lesson03.h" />
     <ClInclude Include="Lesson04.h" />
     <ClInclude Include="Lesson05.h" />
+    <ClInclude Include="Lesson06.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>

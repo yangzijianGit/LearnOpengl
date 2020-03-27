@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+	"settings": {
+		"files.associations": {
+			"*.cpp": "cpp",
+			"*.cs": "csharp",
+			"iostream": "cpp"
+		}
+	}
+}
