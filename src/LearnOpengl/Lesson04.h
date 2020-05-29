@@ -1,4 +1,11 @@
 /*
+ * @Description: 
+ * @Author: yangzijian
+ * @Date: 2020-03-26 16:12:53
+ * @LastEditors: yangzijian
+ * @LastEditTime: 2020-04-09 12:11:00
+ */
+/*
 		author		:		yangzijian
 		time		:		2019-12-16 22:51:50
 		function	:		VAO Test
@@ -23,6 +30,8 @@ public:
 	unsigned int VAO2;
 	unsigned int program1;
 	unsigned int program2;
+	unsigned int VBO1;
+	unsigned int VBO2;
 
 	float vertices1[9] = {
 		-0.5f, 0.5f, 1.0f,
@@ -54,6 +63,8 @@ public:
 		"{\n"
 		"FragColor = ourColor;\n"
 		"}\n";
+
+	bool bIsBind1 = false;
 
 };
 

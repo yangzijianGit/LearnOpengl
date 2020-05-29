@@ -1,487 +1,487 @@
 [
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/context.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\context.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/context.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/init.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\init.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/init.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/input.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\input.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/input.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/monitor.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\monitor.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/monitor.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/vulkan.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\vulkan.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/vulkan.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/window.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\window.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/window.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_init.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_init.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\win32_init.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_init.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_joystick.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_joystick.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\win32_joystick.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_joystick.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_monitor.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_monitor.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\win32_monitor.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_monitor.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_time.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_time.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\win32_time.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_time.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_thread.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_thread.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\win32_thread.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_thread.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/win32_window.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_window.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\win32_window.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/win32_window.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/wgl_context.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/wgl_context.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\wgl_context.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/wgl_context.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/egl_context.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\egl_context.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/egl_context.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/src",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\" -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/osmesa_context.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H @CMakeFiles/glfw.dir/includes_C.rsp -g   -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\src\\osmesa_context.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/src/osmesa_context.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/boing.dir/includes_C.rsp -g   -o CMakeFiles/boing.dir/boing.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/boing.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/boing.dir/includes_C.rsp -g   -o CMakeFiles\\boing.dir\\boing.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\boing.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/boing.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/boing.dir/includes_C.rsp -g   -o CMakeFiles/boing.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/boing.dir/includes_C.rsp -g   -o CMakeFiles\\boing.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/simple.dir/includes_C.rsp -g   -o CMakeFiles/simple.dir/simple.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/simple.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/simple.dir/includes_C.rsp -g   -o CMakeFiles\\simple.dir\\simple.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\simple.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/simple.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/simple.dir/includes_C.rsp -g   -o CMakeFiles/simple.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/simple.dir/includes_C.rsp -g   -o CMakeFiles\\simple.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/gears.dir/includes_C.rsp -g   -o CMakeFiles/gears.dir/gears.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/gears.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/gears.dir/includes_C.rsp -g   -o CMakeFiles\\gears.dir\\gears.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\gears.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/gears.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/gears.dir/includes_C.rsp -g   -o CMakeFiles/gears.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/gears.dir/includes_C.rsp -g   -o CMakeFiles\\gears.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles/particles.dir/particles.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/particles.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles\\particles.dir\\particles.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\particles.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/particles.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles/particles.dir/__/deps/tinycthread.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/tinycthread.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles\\particles.dir\\__\\deps\\tinycthread.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\tinycthread.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/tinycthread.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles/particles.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles\\particles.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles/particles.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/particles.dir/includes_C.rsp -g   -o CMakeFiles\\particles.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/heightmap.dir/includes_C.rsp -g   -o CMakeFiles/heightmap.dir/heightmap.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/heightmap.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/heightmap.dir/includes_C.rsp -g   -o CMakeFiles\\heightmap.dir\\heightmap.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\heightmap.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/heightmap.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/heightmap.dir/includes_C.rsp -g   -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/heightmap.dir/includes_C.rsp -g   -o CMakeFiles\\heightmap.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/splitview.dir/includes_C.rsp -g   -o CMakeFiles/splitview.dir/splitview.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/splitview.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/splitview.dir/includes_C.rsp -g   -o CMakeFiles\\splitview.dir\\splitview.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\splitview.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/splitview.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/splitview.dir/includes_C.rsp -g   -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/splitview.dir/includes_C.rsp -g   -o CMakeFiles\\splitview.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/offscreen.dir/includes_C.rsp -g   -o CMakeFiles/offscreen.dir/offscreen.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/offscreen.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/offscreen.dir/includes_C.rsp -g   -o CMakeFiles\\offscreen.dir\\offscreen.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\offscreen.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/offscreen.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/offscreen.dir/includes_C.rsp -g   -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/offscreen.dir/includes_C.rsp -g   -o CMakeFiles\\offscreen.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/sharing.dir/includes_C.rsp -g   -o CMakeFiles/sharing.dir/sharing.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/sharing.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/sharing.dir/includes_C.rsp -g   -o CMakeFiles\\sharing.dir\\sharing.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\sharing.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/sharing.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/sharing.dir/includes_C.rsp -g   -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/sharing.dir/includes_C.rsp -g   -o CMakeFiles\\sharing.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/wave.dir/includes_C.rsp -g   -o CMakeFiles/wave.dir/wave.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/wave.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/wave.dir/includes_C.rsp -g   -o CMakeFiles\\wave.dir\\wave.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\examples\\wave.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/examples/wave.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/examples",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/wave.dir/includes_C.rsp -g   -o CMakeFiles/wave.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/wave.dir/includes_C.rsp -g   -o CMakeFiles\\wave.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/clipboard.dir/includes_C.rsp -g   -o CMakeFiles/clipboard.dir/clipboard.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/clipboard.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/clipboard.dir/includes_C.rsp -g   -o CMakeFiles\\clipboard.dir\\clipboard.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\clipboard.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/clipboard.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/clipboard.dir/includes_C.rsp -g   -o CMakeFiles/clipboard.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/clipboard.dir/includes_C.rsp -g   -o CMakeFiles\\clipboard.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/clipboard.dir/includes_C.rsp -g   -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/clipboard.dir/includes_C.rsp -g   -o CMakeFiles\\clipboard.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/events.dir/includes_C.rsp -g   -o CMakeFiles/events.dir/events.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/events.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/events.dir/includes_C.rsp -g   -o CMakeFiles\\events.dir\\events.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\events.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/events.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/events.dir/includes_C.rsp -g   -o CMakeFiles/events.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/events.dir/includes_C.rsp -g   -o CMakeFiles\\events.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/events.dir/includes_C.rsp -g   -o CMakeFiles/events.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/events.dir/includes_C.rsp -g   -o CMakeFiles\\events.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/msaa.dir/includes_C.rsp -g   -o CMakeFiles/msaa.dir/msaa.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/msaa.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/msaa.dir/includes_C.rsp -g   -o CMakeFiles\\msaa.dir\\msaa.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\msaa.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/msaa.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/msaa.dir/includes_C.rsp -g   -o CMakeFiles/msaa.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/msaa.dir/includes_C.rsp -g   -o CMakeFiles\\msaa.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/msaa.dir/includes_C.rsp -g   -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/msaa.dir/includes_C.rsp -g   -o CMakeFiles\\msaa.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles/glfwinfo.dir/glfwinfo.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/glfwinfo.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles\\glfwinfo.dir\\glfwinfo.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\glfwinfo.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/glfwinfo.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles\\glfwinfo.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_vulkan.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g   -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_vulkan.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_vulkan.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_vulkan.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/iconify.dir/includes_C.rsp -g   -o CMakeFiles/iconify.dir/iconify.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/iconify.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/iconify.dir/includes_C.rsp -g   -o CMakeFiles\\iconify.dir\\iconify.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\iconify.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/iconify.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/iconify.dir/includes_C.rsp -g   -o CMakeFiles/iconify.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/iconify.dir/includes_C.rsp -g   -o CMakeFiles\\iconify.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/iconify.dir/includes_C.rsp -g   -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/iconify.dir/includes_C.rsp -g   -o CMakeFiles\\iconify.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/monitors.dir/includes_C.rsp -g   -o CMakeFiles/monitors.dir/monitors.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/monitors.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/monitors.dir/includes_C.rsp -g   -o CMakeFiles\\monitors.dir\\monitors.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\monitors.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/monitors.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/monitors.dir/includes_C.rsp -g   -o CMakeFiles/monitors.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/monitors.dir/includes_C.rsp -g   -o CMakeFiles\\monitors.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/monitors.dir/includes_C.rsp -g   -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/monitors.dir/includes_C.rsp -g   -o CMakeFiles\\monitors.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/reopen.dir/includes_C.rsp -g   -o CMakeFiles/reopen.dir/reopen.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/reopen.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/reopen.dir/includes_C.rsp -g   -o CMakeFiles\\reopen.dir\\reopen.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\reopen.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/reopen.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/reopen.dir/includes_C.rsp -g   -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/reopen.dir/includes_C.rsp -g   -o CMakeFiles\\reopen.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/cursor.dir/includes_C.rsp -g   -o CMakeFiles/cursor.dir/cursor.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/cursor.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/cursor.dir/includes_C.rsp -g   -o CMakeFiles\\cursor.dir\\cursor.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\cursor.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/cursor.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/cursor.dir/includes_C.rsp -g   -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/cursor.dir/includes_C.rsp -g   -o CMakeFiles\\cursor.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/empty.dir/includes_C.rsp -g   -o CMakeFiles/empty.dir/empty.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/empty.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/empty.dir/includes_C.rsp -g   -o CMakeFiles\\empty.dir\\empty.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\empty.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/empty.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/empty.dir/includes_C.rsp -g   -o CMakeFiles/empty.dir/__/deps/tinycthread.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/tinycthread.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/empty.dir/includes_C.rsp -g   -o CMakeFiles\\empty.dir\\__\\deps\\tinycthread.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\tinycthread.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/tinycthread.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/empty.dir/includes_C.rsp -g   -o CMakeFiles/empty.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/empty.dir/includes_C.rsp -g   -o CMakeFiles\\empty.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/gamma.dir/includes_C.rsp -g   -o CMakeFiles/gamma.dir/gamma.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/gamma.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/gamma.dir/includes_C.rsp -g   -o CMakeFiles\\gamma.dir\\gamma.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\gamma.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/gamma.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/gamma.dir/includes_C.rsp -g   -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/gamma.dir/includes_C.rsp -g   -o CMakeFiles\\gamma.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/icon.dir/includes_C.rsp -g   -o CMakeFiles/icon.dir/icon.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/icon.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/icon.dir/includes_C.rsp -g   -o CMakeFiles\\icon.dir\\icon.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\icon.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/icon.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/icon.dir/includes_C.rsp -g   -o CMakeFiles/icon.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/icon.dir/includes_C.rsp -g   -o CMakeFiles\\icon.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/inputlag.dir/includes_C.rsp -g   -o CMakeFiles/inputlag.dir/inputlag.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/inputlag.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/inputlag.dir/includes_C.rsp -g   -o CMakeFiles\\inputlag.dir\\inputlag.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\inputlag.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/inputlag.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/inputlag.dir/includes_C.rsp -g   -o CMakeFiles/inputlag.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/inputlag.dir/includes_C.rsp -g   -o CMakeFiles\\inputlag.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/inputlag.dir/includes_C.rsp -g   -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/inputlag.dir/includes_C.rsp -g   -o CMakeFiles\\inputlag.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/joysticks.dir/includes_C.rsp -g   -o CMakeFiles/joysticks.dir/joysticks.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/joysticks.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/joysticks.dir/includes_C.rsp -g   -o CMakeFiles\\joysticks.dir\\joysticks.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\joysticks.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/joysticks.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/joysticks.dir/includes_C.rsp -g   -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/joysticks.dir/includes_C.rsp -g   -o CMakeFiles\\joysticks.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/threads.dir/includes_C.rsp -g   -o CMakeFiles/threads.dir/threads.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/threads.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/threads.dir/includes_C.rsp -g   -o CMakeFiles\\threads.dir\\threads.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\threads.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/threads.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/threads.dir/includes_C.rsp -g   -o CMakeFiles/threads.dir/__/deps/tinycthread.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/tinycthread.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/threads.dir/includes_C.rsp -g   -o CMakeFiles\\threads.dir\\__\\deps\\tinycthread.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\tinycthread.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/tinycthread.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/threads.dir/includes_C.rsp -g   -o CMakeFiles/threads.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/threads.dir/includes_C.rsp -g   -o CMakeFiles\\threads.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/opacity.dir/includes_C.rsp -g   -o CMakeFiles/opacity.dir/opacity.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/opacity.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/opacity.dir/includes_C.rsp -g   -o CMakeFiles\\opacity.dir\\opacity.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\opacity.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/opacity.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/opacity.dir/includes_C.rsp -g   -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/opacity.dir/includes_C.rsp -g   -o CMakeFiles\\opacity.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/tearing.dir/includes_C.rsp -g   -o CMakeFiles/tearing.dir/tearing.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/tearing.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/tearing.dir/includes_C.rsp -g   -o CMakeFiles\\tearing.dir\\tearing.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\tearing.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/tearing.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/tearing.dir/includes_C.rsp -g   -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/tearing.dir/includes_C.rsp -g   -o CMakeFiles\\tearing.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/timeout.dir/includes_C.rsp -g   -o CMakeFiles/timeout.dir/timeout.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/timeout.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/timeout.dir/includes_C.rsp -g   -o CMakeFiles\\timeout.dir\\timeout.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\timeout.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/timeout.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/timeout.dir/includes_C.rsp -g   -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/timeout.dir/includes_C.rsp -g   -o CMakeFiles\\timeout.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/title.dir/includes_C.rsp -g   -o CMakeFiles/title.dir/title.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/title.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/title.dir/includes_C.rsp -g   -o CMakeFiles\\title.dir\\title.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\title.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/title.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/title.dir/includes_C.rsp -g   -o CMakeFiles/title.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/title.dir/includes_C.rsp -g   -o CMakeFiles\\title.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/vulkan.dir/includes_C.rsp -g   -o CMakeFiles/vulkan.dir/vulkan.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/vulkan.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/vulkan.dir/includes_C.rsp -g   -o CMakeFiles\\vulkan.dir\\vulkan.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\vulkan.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/vulkan.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/vulkan.dir/includes_C.rsp -g   -o CMakeFiles/vulkan.dir/__/deps/glad_vulkan.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_vulkan.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/vulkan.dir/includes_C.rsp -g   -o CMakeFiles\\vulkan.dir\\__\\deps\\glad_vulkan.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_vulkan.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_vulkan.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/windows.dir/includes_C.rsp -g   -o CMakeFiles/windows.dir/windows.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/windows.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/windows.dir/includes_C.rsp -g   -o CMakeFiles\\windows.dir\\windows.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\tests\\windows.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/tests/windows.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/windows.dir/includes_C.rsp -g   -o CMakeFiles/windows.dir/__/deps/getopt.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/windows.dir/includes_C.rsp -g   -o CMakeFiles\\windows.dir\\__\\deps\\getopt.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\getopt.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/getopt.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glfw-3.3/tests",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/windows.dir/includes_C.rsp -g   -o CMakeFiles/windows.dir/__/deps/glad_gl.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/windows.dir/includes_C.rsp -g   -o CMakeFiles\\windows.dir\\__\\deps\\glad_gl.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glfw-3.3\\deps\\glad_gl.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glfw-3.3/deps/glad_gl.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/glad",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-gcc.exe\"  @CMakeFiles/glad.dir/includes_C.rsp -g   -o CMakeFiles/glad.dir/src/glad.c.obj   -c F:/svn_zijian/opengl/LearnOpengl/src/glad/src/glad.c",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/glad.dir/includes_C.rsp -g   -o CMakeFiles\\glad.dir\\src\\glad.c.obj   -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\glad\\src\\glad.c",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/glad/src/glad.c"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Lesson.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Lesson.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Lesson.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Lesson01.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson01.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Lesson01.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Lesson01.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson01.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Lesson02.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson02.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Lesson02.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Lesson02.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson02.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Lesson03.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson03.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Lesson03.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Lesson03.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson03.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Lesson04.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson04.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Lesson04.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Lesson04.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson04.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Lesson05.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson05.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Lesson05.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Lesson05.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson05.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Lesson06.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson06.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Lesson06.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Lesson06.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson06.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Shader.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Shader.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Shader.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Shader.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Shader.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/Util.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Util.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\Util.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\Util.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Util.cpp"
 },
 {
   "directory": "F:/svn_zijian/opengl/LearnOpengl/build/src/LearnOpengl",
-  "command": "\"D:/Program Files (x86)/mingw64/bin/x86_64-w64-mingw32-g++.exe\"   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles/LearnOpengl.dir/main.cpp.obj -c F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/main.cpp",
+  "command": "D:\\PROGRA~2\\mingw64\\bin\\X86_64~2.EXE   @CMakeFiles/LearnOpengl.dir/includes_CXX.rsp -g   -o CMakeFiles\\LearnOpengl.dir\\main.cpp.obj -c F:\\svn_zijian\\opengl\\LearnOpengl\\src\\LearnOpengl\\main.cpp",
   "file": "F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/main.cpp"
 }
 ]

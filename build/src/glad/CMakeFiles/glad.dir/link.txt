@@ -1,2 +1,2 @@
-"D:/Program Files (x86)/mingw64/bin/ar.exe" qc libglad.a  CMakeFiles/glad.dir/src/glad.c.obj
-"D:/Program Files (x86)/mingw64/bin/ranlib.exe" libglad.a
+D:\PROGRA~2\mingw64\bin\ar.exe qc libglad.a  CMakeFiles/glad.dir/src/glad.c.obj
+D:\PROGRA~2\mingw64\bin\ranlib.exe libglad.a

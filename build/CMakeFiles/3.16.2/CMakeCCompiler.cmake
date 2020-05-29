@@ -71,6 +71,6 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/Program Files (x86)/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;D:/Program Files (x86)/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;D:/Program Files (x86)/mingw64/x86_64-w64-mingw32/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "D:/Program Files (x86)/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0;D:/Program Files (x86)/mingw64/lib/gcc;D:/Program Files (x86)/mingw64/x86_64-w64-mingw32/lib;D:/Program Files (x86)/mingw64/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

@@ -62,7 +62,15 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.cpp
+Lesson.h
 F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.h
+
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.h
+vector
+-
+functional
+-
 
 F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson01.cpp
 Lesson01.h
@@ -117,6 +125,12 @@ glfw3.h
 -
 cmath
 -
+exception
+-
+iostream
+-
+stdio.h
+-
 
 F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson04.h
 Lesson.h
@@ -134,6 +148,32 @@ F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson05.h
 Lesson.h
 F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.h
 
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson06.cpp
+Lesson06.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson06.h
+glad/glad.h
+-
+
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson06.h
+Lesson.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.h
+
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Shader.cpp
+Shader.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Shader.h
+
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Shader.h
+glad/glad.h
+-
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+
 F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Util.cpp
 Util.h
 F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Util.h
@@ -149,4 +189,24 @@ memory.h
 F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Util.h
 glad/glad.h
 -
+
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/main.cpp
+glad/glad.h
+-
+glfw3.h
+-
+iostream
+-
+Lesson.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson.h
+Lesson01.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson01.h
+Lesson02.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson02.h
+Lesson03.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson03.h
+Lesson04.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson04.h
+Lesson05.h
+F:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/Lesson05.h
 
