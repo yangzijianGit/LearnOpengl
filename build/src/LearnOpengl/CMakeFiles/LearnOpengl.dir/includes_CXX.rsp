@@ -1,1 +1,0 @@
--IF:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/. -IF:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/../glad/include -IF:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/../glfw-3.3/include -IF:/svn_zijian/opengl/LearnOpengl/src/LearnOpengl/../glfw-3.3/include/GLFW 

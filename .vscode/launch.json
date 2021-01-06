@@ -6,23 +6,14 @@
     "configurations": [
         {
             "name": "(gdb) 启动",
-            "type": "cppdbg",
+            "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/src/LearnOpengl/LearnOpengl.exe",
+            "program": "${workspaceFolder}/build/src/LearnOpengl/Debug/LearnOpengl.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "D:/Program Files (x86)/mingw64/bin/gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "为 gdb 启用整齐打印",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ]
+            "externalConsole": false
         }
     ]
 }
