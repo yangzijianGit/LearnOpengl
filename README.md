@@ -1,4 +1,4 @@
 # LearnOpengl
-my learn opengl project
-this is use by opengl 3.3 learning project.
+My own opengl learning warehouse
+Using opengl 3.3 version.
 
