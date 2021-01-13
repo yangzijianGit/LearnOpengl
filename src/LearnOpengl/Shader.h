@@ -1,3 +1,8 @@
+/*** 
+ * @Author       : yangzijian
+ * @Description  : shader
+ * @Date         : 2021-01-06 16:25:11
+ */
 #pragma once
 
 #include <glad/glad.h>
@@ -10,19 +15,22 @@
 class Shader
 {
 public:
-	// ¹¹ÔìÆ÷¶ÁÈ¡²¢¹¹½¨×ÅÉ«Æ÷
-	Shader(const GLchar* vertexPath, const GLchar* fragmentPath);
+	// æ„é€ å™¨è¯»å–å¹¶æ„å»ºç€è‰²å™¨
+	Shader();
+	Shader(const GLchar *vertexPath, const GLchar *fragmentPath);
 	~Shader();
 
-	// Ê¹ÓÃ/¼¤»î³ÌĞò
+	void read(const GLchar *vertexPath, const GLchar *fragmentPath);
+	// ä½¿ç”¨/æ¿€æ´»ç¨‹åº
 	bool use() const;
-	// uniform ¹¤¾ßº¯Êı
-	void setBool(const std::string& strName, bool bValue) const;
-	void setInt(const std::string& strName, int nValue) const;
-	void setFloat(const std::string& strName, float fValue) const;
+	// uniform å·¥å…·å‡½æ•°
+	void setBool(const std::string &strName, bool bValue) const;
+	void setInt(const std::string &strName, int nValue) const;
+	void setFloat(const std::string &strName, float fValue) const;
 
 	// program id
-	unsigned int m_nProgramId = 0;
+	unsigned int m_nProgramId;
 
+private:
+	void clear();
 };
-

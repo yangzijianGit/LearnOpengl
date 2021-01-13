@@ -5,8 +5,8 @@
 */
 
 #pragma once
-#include "Lesson.h"
-class Lesson03 : public Lesson
+#include "OGL.h"
+class Lesson03 : public OGL
 {
 public:
 	// 绘制开始处理

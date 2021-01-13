@@ -43,6 +43,7 @@ void Lesson04::CreateVAO1()
 	glUseProgram(program1);
 	glUniform4f(vertexColorLocation, 0.0f, 1.0f, 0.0f, 1.0f);
 	glBindVertexArray(0);
+	glDeleteBuffers(1, &VBO1);
 }
 void Lesson04::CreateVAO2()
 {
@@ -80,6 +81,7 @@ void Lesson04::CreateVAO2()
 	glUseProgram(program2);
 	glUniform4f(vertexColorLocation, 1.0f, 0.0f, 0.0f, 1.0f);
 	glBindVertexArray(0);
+	glDeleteBuffers(1, &VBO2);
 }
 
 // 绘制开始处理
@@ -90,18 +92,18 @@ void Lesson04::prefix()
 
 	addProcessInputFunc(GLFW_KEY_A, [&]() {
 		printf("bIsBind1:%d", bIsBind1);
-		if (bIsBind1)
-		{
-			glBindBuffer(GL_ARRAY_BUFFER, VBO2);
-			// glBufferData(GL_ARRAY_BUFFER, sizeof(vertices2), vertices2, GL_STATIC_DRAW);
-			glVertexAttribPointer(0, 3, GL_FLOAT, false, 3 * sizeof(float), 0);
-		}
-		else
-		{
-			glBindBuffer(GL_ARRAY_BUFFER, VBO1);
-			//glBufferData(GL_ARRAY_BUFFER, sizeof(vertices1), vertices1, GL_STATIC_DRAW);
-			glVertexAttribPointer(0, 3, GL_FLOAT, false, 3 * sizeof(float), 0);
-		}
+		// if (bIsBind1)
+		// {
+		// 	glBindBuffer(GL_ARRAY_BUFFER, VBO2);
+		// 	// glBufferData(GL_ARRAY_BUFFER, sizeof(vertices2), vertices2, GL_STATIC_DRAW);
+		// 	glVertexAttribPointer(0, 3, GL_FLOAT, false, 3 * sizeof(float), 0);
+		// }
+		// else
+		// {
+		// 	glBindBuffer(GL_ARRAY_BUFFER, VBO1);
+		// 	//glBufferData(GL_ARRAY_BUFFER, sizeof(vertices1), vertices1, GL_STATIC_DRAW);
+		// 	glVertexAttribPointer(0, 3, GL_FLOAT, false, 3 * sizeof(float), 0);
+		// }
 		bIsBind1 = !bIsBind1;
 	});
 }
@@ -110,18 +112,19 @@ void Lesson04::show()
 {
 	try
 	{
-		if (bIsShow)
-		{
+		// if (bIsShow)
+		// {
 			glUseProgram(program1);
 			glBindVertexArray(VAO1);
 			glDrawArrays(GL_TRIANGLES, 0, 3);
-		}
-		else
-		{
-			glUseProgram(program2);
-			glBindVertexArray(VAO2);
-			glDrawArrays(GL_TRIANGLES, 0, 3);
-		}
+			printf("bIsBind1:%d", bIsBind1);
+		// }
+		// else
+		// {
+		// 	glUseProgram(program2);
+		// 	glBindVertexArray(VAO2);
+		// 	glDrawArrays(GL_TRIANGLES, 0, 3);
+		// }
 	}
 	catch (const std::exception &e)
 	{

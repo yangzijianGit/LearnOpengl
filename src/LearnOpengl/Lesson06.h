@@ -1,15 +1,13 @@
-/*
- * @Description: 
- * @Author: yangzijian
- * @Date: 2019-12-25 18:44:40
- * @LastEditors: yangzijian
- * @LastEditTime: 2020-02-26 12:19:59
+/*** 
+ * @Author       : yangzijian
+ * @Description  : 
+ * @Date         : 2021-01-06 16:25:11
  */
 #pragma once
 
-#include "Lesson.h"
+#include "OGL.h"
 
-class Lesson06 : public Lesson
+class Lesson06 : public OGL
 {
 public:
 
@@ -19,25 +17,6 @@ public:
 	virtual void show() override;
 	// 程序结束处理
 	virtual void over() override;
-
-	float texCoord[6] = {
-		0.0f, 0.0f,
-		1.0f, 0.0f,
-		0.5f, 1.0f
-	};
-
-	float triangle[9] = {
-		0.0f, 0.5f, 1.0f,
-		0.5f, -0.5f, 1.0f,
-		-0.5f, -0.5f, 1.0f
-	};
-
-
-	unsigned int m_nProgramId;
-	unsigned int m_nVAO;
-
-
-
-
+	
 };
 

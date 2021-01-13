@@ -1,16 +1,15 @@
-/*
- * @Description: 
- * @Author: yangzijian
- * @Date: 2019-12-13 13:42:32
- * @LastEditors: yangzijian
- * @LastEditTime: 2020-02-26 12:17:29
+/*** 
+ * @Author       : yangzijian
+ * @Description  : VAO 
+ * @Date         : 2021-01-06 16:25:11
  */
+
 #pragma once
 
-#include "Lesson.h"
+#include "OGL.h"
 #include "glad/glad.h"
 
-class Lesson01 : public Lesson
+class Lesson01 : public OGL
 {
 public:
 

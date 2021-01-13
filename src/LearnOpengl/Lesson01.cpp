@@ -1,4 +1,4 @@
-/*
+﻿/*
 		author		:		yangzijian
 		time		:		2019-12-9 19:31:49
 		function	:		lesson01 create a trangle
@@ -20,7 +20,7 @@ void Lesson01::bindBuffer()
 	glGenBuffers(1, &VBO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
 	glEnableVertexAttribArray(0);
 	glBindVertexArray(0);
 }
@@ -60,17 +60,19 @@ void Lesson01::createShader()
 }
 
 // 绘制开始处理
-void Lesson01::prefix() {
+void Lesson01::prefix()
+{
 	bindBuffer();
 	createShader();
 }
 // 循环绘制
-void Lesson01::show() {
+void Lesson01::show()
+{
 	glUseProgram(shaderProgram);
 	glBindVertexArray(VAO);
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 // 程序结束处理
-void Lesson01::over() {
-
+void Lesson01::over()
+{
 }

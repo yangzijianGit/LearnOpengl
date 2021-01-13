@@ -6,9 +6,9 @@
  * @LastEditTime: 2020-02-26 12:14:37
  */
 #pragma once
-#include "Lesson.h"
+#include "OGL.h"
 
-class Lesson05 : public Lesson
+class Lesson05 : public OGL
 {
 public:
 	// 绘制开始处理

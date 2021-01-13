@@ -7,10 +7,10 @@
  */
 #pragma once
 
-#include "Lesson.h"
+#include "OGL.h"
 #include "glad/glad.h"
 
-class Lesson02 : public Lesson
+class Lesson02 : public OGL
 {
 public:
 

@@ -1,19 +1,13 @@
-/*
- * @Description: 
- * @Author: yangzijian
- * @Date: 2020-03-26 16:12:53
- * @LastEditors: yangzijian
- * @LastEditTime: 2020-04-09 12:11:00
+/*** 
+ * @Author       : yangzijian
+ * @Description  : VAO Test
+ * @Date         : 2021-01-06 16:25:11
  */
-/*
-		author		:		yangzijian
-		time		:		2019-12-16 22:51:50
-		function	:		VAO Test
-*/
-#pragma once
-#include "Lesson.h"
 
-class Lesson04 : public Lesson
+#pragma once
+#include "OGL.h"
+
+class Lesson04 : public OGL
 {
 public:
 	// 绘制开始处理
@@ -36,18 +30,16 @@ public:
 	float vertices1[9] = {
 		-0.5f, 0.5f, 1.0f,
 		0.5f, 0.5f, 1.0f,
-		0.0f, -0.5f, 1.0f
-	};
+		0.0f, -0.5f, 1.0f};
 
 	float vertices2[9] = {
 		-0.5f, -0.5f, 0.0f,
 		0.5f, -0.5f, 0.0f,
-		0.0f, 0.5f, 0.0f
-	};
+		0.0f, 0.5f, 0.0f};
 
 	int bIsShow = false;
 
-	const char* vertexShaderSource =
+	const char *vertexShaderSource =
 		"#version 330 core\n"
 		"layout (location = 0) in vec3 aPos;\n"
 		"void main()\n"
@@ -55,7 +47,7 @@ public:
 		"gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0f);\n"
 		"}\n";
 
-	const char* fragmentShaderSource =
+	const char *fragmentShaderSource =
 		"#version 330 core\n"
 		"out vec4 FragColor;\n"
 		"uniform vec4 ourColor;\n"
@@ -65,6 +57,4 @@ public:
 		"}\n";
 
 	bool bIsBind1 = false;
-
 };
-
