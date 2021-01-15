@@ -16,6 +16,8 @@
 #include "Lesson07.h"
 #include "Lesson08.h"
 #include "Lesson09.h"
+#include "Lesson10.h"
+#include "Lesson11.h"
 
 namespace
 {
@@ -32,7 +34,7 @@ namespace
     void setBackgroundColor()
     {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     }
 } // namespace
 
@@ -80,7 +82,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson09();
+    OGL *pLesson = new Lesson11();
     pLesson->setProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
