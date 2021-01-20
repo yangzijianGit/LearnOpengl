@@ -1,7 +1,0 @@
-﻿  Building Custom Rule F:/svn_zijian/opengl/LearnOpengl/win/lib/glfw-3.3/tests/CMakeLists.txt
-  CMake does not need to re-run because F:\svn_zijian\opengl\LearnOpengl\win\lib\glfw-3.3\build\tests\CMakeFiles\generate.stamp is up-to-date.
-  inputlag.c
-  getopt.c
-  glad_gl.c
-  正在生成代码...
-  inputlag.vcxproj -> F:\svn_zijian\opengl\LearnOpengl\win\lib\glfw-3.3\build\tests\Debug\inputlag.exe
