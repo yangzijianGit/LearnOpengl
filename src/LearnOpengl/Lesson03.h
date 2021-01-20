@@ -1,8 +1,8 @@
-/*
-		author		:		yangzijian
-		time		:		2019-12-16 21:18:22
-		function	:		uniform
-*/
+/*** 
+ * @Author       : yangzijian
+ * @Description  : uniform
+ * @Date         : 2021-01-06 16:25:11
+ */
 
 #pragma once
 #include "OGL.h"

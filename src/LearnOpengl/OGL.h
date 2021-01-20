@@ -8,6 +8,7 @@
 
 #include <vector>
 #include <functional>
+#include <map>
 
 class OGL
 {
@@ -19,40 +20,63 @@ public:
 	// 程序结束处理
 	virtual void over() = 0;
 
-	void processInput()
+	void Process_Input()
 	{
-		if (m_pProcessFunction == nullptr)
+		for (auto itKey : m_arrProcessInputFunc)
 		{
-			return;
-		}
-		for (auto it : m_arrProcessInputFunc)
-		{
-			if (m_pProcessFunction(it.first))
+			if (m_pCheckKeyStatus(itKey.first))
 			{
-				it.second();
+				for (auto pFunc : itKey.second)
+				{
+					pFunc();
+				}
 			}
 		}
 	}
-	void setProcessFunction(std::function<int(int)> pProcessFunction)
+
+	void Process_MouseMove(double dXPos, double dYPos)
 	{
-		m_pProcessFunction = pProcessFunction;
+		for (auto pFunc : m_arrProcessInput_MouseMove)
+		{
+			pFunc(dXPos, dYPos);
+		}
 	}
-	std::function<int(int)> m_pProcessFunction = nullptr;
+
+	void Process_MouseScroll(double dXOffset, double dYOffect)
+	{
+		for (auto pFunc : m_arrProcessInput_MouseScroll)
+		{
+			pFunc(dXOffset, dYOffect);
+		}
+	}
+
+	void SetProcessFunction(std::function<int(int)> pFunc)
+	{
+		m_pCheckKeyStatus = pFunc;
+	}
+
 	void addProcessInputFunc(int eFunctionKey, std::function<void(void)> pCallback)
 	{
-		m_arrProcessInputFunc.push_back(std::pair<int, std::function<void(void)>>(eFunctionKey, pCallback));
+		if (m_arrProcessInputFunc.find(eFunctionKey) == m_arrProcessInputFunc.end())
+		{
+			m_arrProcessInputFunc[eFunctionKey] = std::vector<std::function<void(void)>>{};
+		}
+		m_arrProcessInputFunc[eFunctionKey].push_back(pCallback);
 	}
-	std::vector<std::pair<int, std::function<void(void)>>> m_arrProcessInputFunc;
+
+	std::function<int(int)> m_pCheckKeyStatus = nullptr;
+	std::map<int, std::vector<std::function<void(void)>>> m_arrProcessInputFunc;
+	std::vector<std::function<void(double, double)>> m_arrProcessInput_MouseMove;
+	std::vector<std::function<void(double, double)>> m_arrProcessInput_MouseScroll;
 };
 
-#define OGL_Class(Name)\
-class Name : public OGL\
-{\
-public:\
-	virtual void prefix() override;\
-	virtual void show() override;\
-	virtual void over() override;\
-};\
+#define OGL_Class_Begin(Name)           \
+	class Name : public OGL             \
+	{                                   \
+	public:                             \
+		virtual void prefix() override; \
+		virtual void show() override;   \
+		virtual void over() override;
 
-
-
+#define OGL_Class_End() \
+	}                   \

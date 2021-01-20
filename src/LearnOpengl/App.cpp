@@ -18,6 +18,7 @@
 #include "Lesson09.h"
 #include "Lesson10.h"
 #include "Lesson11.h"
+#include "Lesson12.h"
 
 namespace
 {
@@ -36,6 +37,14 @@ namespace
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     }
+    OGL *ogl = nullptr;
+
+    void ButtonCallback(GLFWwindow *, int a, int b, int c)
+    {
+        // GLFW_MOUSE_BUTTON_1
+        printf("%d,%d, %d\n", a, b, c);
+    }
+
 } // namespace
 
 App::App()
@@ -76,6 +85,7 @@ bool App::Init()
     glViewport(0, 0, 800, 600);
     // 设置窗口大小改变时， 回调函数
     glfwSetFramebufferSizeCallback(m_pWindow, framebuffer_size_callback);
+    glfwSetMouseButtonCallback(m_pWindow, ButtonCallback);
     // render
     return true;
 }
@@ -83,11 +93,20 @@ bool App::Init()
 void App::Run()
 {
     OGL *pLesson = new Lesson11();
-    pLesson->setProcessFunction([=](int eFunctionKey) {
+    pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
     pLesson->addProcessInputFunc(GLFW_KEY_ESCAPE, [=]() {
         glfwSetWindowShouldClose(m_pWindow, true);
+    });
+    ogl = pLesson;
+    glfwSetCursorPosCallback(m_pWindow, [](GLFWwindow *pWindow, double x, double y) {
+        if (ogl)
+            ogl->Process_MouseMove(x, y);
+    });
+    glfwSetScrollCallback(m_pWindow, [](GLFWwindow *pWindow, double x, double y) {
+        if (ogl)
+            ogl->Process_MouseScroll(x, y);
     });
     pLesson->prefix();
     while (!glfwWindowShouldClose(m_pWindow))
@@ -99,7 +118,7 @@ void App::Run()
         // gl render command
         //...
         pLesson->show();
-        pLesson->processInput();
+        pLesson->Process_Input();
 
         // gl render command end
         glfwPollEvents();

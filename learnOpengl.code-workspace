@@ -68,7 +68,9 @@
 			"xtr1common": "cpp",
 			"xutility": "cpp",
 			"array": "cpp",
-			"cstdarg": "cpp"
+			"cstdarg": "cpp",
+			"map": "cpp",
+			"xtree": "cpp"
 		}
 	},
 	"extensions": {
