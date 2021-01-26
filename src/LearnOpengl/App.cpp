@@ -19,6 +19,7 @@
 #include "Lesson10.h"
 #include "Lesson11.h"
 #include "Lesson12.h"
+#include "Lesson13.h"
 
 namespace
 {
@@ -85,7 +86,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson12();
+    OGL *pLesson = new Lesson13();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
