@@ -34,6 +34,14 @@ public:
 		}
 	}
 
+	void Process_MouseBtn(int mouse, int isPressed, int bit)
+	{
+		for (auto pFunc : m_arrProcessInput_MouseBtn)
+		{
+			pFunc(mouse, isPressed, bit);
+		}
+	}
+
 	void Process_MouseMove(double dXPos, double dYPos)
 	{
 		for (auto pFunc : m_arrProcessInput_MouseMove)
@@ -68,6 +76,7 @@ public:
 	std::map<int, std::vector<std::function<void(void)>>> m_arrProcessInputFunc;
 	std::vector<std::function<void(double, double)>> m_arrProcessInput_MouseMove;
 	std::vector<std::function<void(double, double)>> m_arrProcessInput_MouseScroll;
+	std::vector<std::function<void(int, int, int)>> m_arrProcessInput_MouseBtn;
 };
 
 #define OGL_Class_Begin(Name)           \
@@ -79,4 +88,4 @@ public:
 		virtual void over() override;
 
 #define OGL_Class_End() \
-	}                   \
+	}\

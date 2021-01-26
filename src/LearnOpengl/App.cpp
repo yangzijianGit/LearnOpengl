@@ -39,12 +39,6 @@ namespace
     }
     OGL *ogl = nullptr;
 
-    void ButtonCallback(GLFWwindow *, int a, int b, int c)
-    {
-        // GLFW_MOUSE_BUTTON_1
-        printf("%d,%d, %d\n", a, b, c);
-    }
-
 } // namespace
 
 App::App()
@@ -85,14 +79,13 @@ bool App::Init()
     glViewport(0, 0, 800, 600);
     // 设置窗口大小改变时， 回调函数
     glfwSetFramebufferSizeCallback(m_pWindow, framebuffer_size_callback);
-    glfwSetMouseButtonCallback(m_pWindow, ButtonCallback);
     // render
     return true;
 }
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson11();
+    OGL *pLesson = new Lesson12();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
@@ -107,6 +100,10 @@ void App::Run()
     glfwSetScrollCallback(m_pWindow, [](GLFWwindow *pWindow, double x, double y) {
         if (ogl)
             ogl->Process_MouseScroll(x, y);
+    });
+    glfwSetMouseButtonCallback(m_pWindow, [](GLFWwindow *pWindow, int btn, int isPressed, int bit) {
+        if (ogl)
+            ogl->Process_MouseBtn(btn, isPressed, bit);
     });
     pLesson->prefix();
     while (!glfwWindowShouldClose(m_pWindow))

@@ -19,7 +19,6 @@ namespace
 	unsigned int VBO, VAO;
 	unsigned int texture1;
 	unsigned int texture2;
-	bool isTextFirst = true;
 	Shader ourShader;
 	glm::mat4 projection;
 	// world space positions of our cubes
@@ -35,7 +34,23 @@ namespace
 		glm::vec3(1.5f, 0.2f, -1.5f),
 		glm::vec3(-1.3f, 1.0f, -1.5f)};
 
+	bool isButtonPressed = false;
+	bool isPressedScreen = false;
+	float yaw = -90.0f;
+	float pitch = 0.0f;
+	float lastX = 800.0f / 2.0f;
+	float lastY = 600.0f / 2.0f;
+	float fov = 45.0f;
+	float deltaTime = 0.0f;
+	float lastFrame = 0.0f;
+
 	glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+	glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
+	glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
+
+	double mouseX = 0.0f;
+	double mouseY = 0.0f;
+
 } // namespace
 
 void Lesson12::prefix()
@@ -84,9 +99,7 @@ void Lesson12::prefix()
 		-0.5f, 0.5f, 0.5f, 0.0f, 0.0f,
 		-0.5f, 0.5f, -0.5f, 0.0f, 1.0f};
 
-	
-
-	ourShader.read("6.2.coordinate_systems.vs", "6.2.coordinate_systems.fs");
+	ourShader.read("7.3.camera.vs", "7.3.camera.fs");
 
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
@@ -164,25 +177,100 @@ void Lesson12::prefix()
 	glActiveTexture(GL_TEXTURE1);
 	glBindTexture(GL_TEXTURE_2D, texture2);
 
-	projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
-	ourShader.setMat4("projection", projection);
+	m_arrProcessInput_MouseBtn.push_back([](int key, int isPressed, int bit) {
+		if (isPressedScreen != isPressed)
+		{
+			isPressedScreen = isPressed;
+			lastX = mouseX;
+			lastY = mouseY;
+		}
+	});
+
+	m_arrProcessInput_MouseMove.push_back([](double x, double y) {
+		printf("mouse move:%f, %f\n", x, y);
+		mouseX = x;
+		mouseY = y;
+		if (!isPressedScreen)
+		{
+			return;
+		}
+		float xOffect = lastX - x;
+		float yOffect = lastY - y;
+		lastX = x;
+		lastY = y;
+
+		float sensitivity = 0.1f;
+		xOffect *= sensitivity;
+		yOffect *= sensitivity;
+
+		yaw += xOffect;
+		pitch += yOffect;
+
+		if (pitch > 89.0f)
+		{
+			pitch = 89.0f;
+		}
+		if (pitch < -89.0f)
+		{
+			pitch = -89.0f;
+		}
+
+		glm::vec3 front;
+		front.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
+		front.y = sin(glm::radians(pitch));
+		front.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+		cameraFront = glm::normalize(front);
+	});
+
+	m_arrProcessInput_MouseScroll.push_back([](double x, double y) {
+		printf("mouse scroll:%f,%f\n", x, y);
+		fov -= (float)y;
+		if (fov < 1.0f)
+		{
+			fov = 1.0f;
+		}
+		if (fov > 45.0f)
+		{
+			fov = 45.0f;
+		}
+	});
+
+	addProcessInputFunc(GLFW_KEY_W, []() {
+		float cameraSpeed = 2.5 * deltaTime;
+		cameraPos += cameraSpeed * cameraFront;
+	});
+	addProcessInputFunc(GLFW_KEY_S, []() {
+		float cameraSpeed = 2.5 * deltaTime;
+		cameraPos -= cameraSpeed * cameraFront;
+	});
+	addProcessInputFunc(GLFW_KEY_A, []() {
+		float cameraSpeed = 2.5 * deltaTime;
+		cameraPos -= cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
+	});
+	addProcessInputFunc(GLFW_KEY_D, []() {
+		float cameraSpeed = 2.5 * deltaTime;
+		cameraPos += cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
+	});
 }
 void Lesson12::show()
 {
 	ourShader.use();
 
-	glm::mat4 view = glm::mat4(1.0f);
-	float radius = 10.0f;
-	float camX = sin(glfwGetTime()) * radius;
-	float camZ = cos(glfwGetTime()) * radius;
-	view = glm::lookAt(glm::vec3(camX, 0.0f, camZ), glm::vec3(0,0,0), glm::vec3(0.0f, 1.0f, 0.0f));
+	float currentFrame = glfwGetTime();
+	deltaTime = currentFrame - lastFrame;
+	lastFrame = currentFrame;
+
+	projection = glm::perspective(glm::radians(fov), 800.0f / 600.0f, 0.1f, 100.0f);
+	ourShader.setMat4("projection", projection);
+
+	glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 	ourShader.setMat4("view", view);
 
 	// render boxes
 	glBindVertexArray(VAO);
-	for(unsigned int i = 0; i < 10; ++i)
+	for (unsigned int i = 0; i < 10; ++i)
 	{
-		// calculate the model matrix for each object and pass it to shader before drawing 
+		// calculate the model matrix for each object and pass it to shader before drawing
 		glm::mat4 model = glm::mat4(1.0f);
 		model = glm::translate(model, cubePositions[i]);
 		float angle = 20.0f * i;
@@ -190,7 +278,6 @@ void Lesson12::show()
 		ourShader.setMat4("model", model);
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 	}
-
 }
 void Lesson12::over()
 {
