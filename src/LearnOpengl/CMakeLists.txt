@@ -20,6 +20,7 @@ link_libraries(glfw)
 source_group(App FILES ${Source_App})
 source_group(Example FILES ${Source_Example})
 source_group(OGL FILES ${Source_OGL})
+add_compile_options(/utf-8)
 add_executable(LearnOpengl ${Source_App} ${Source_Example} ${Source_OGL})
 
 
