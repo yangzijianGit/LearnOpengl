@@ -3,7 +3,7 @@
  * @Description  : 
  * @Date         : 2021-01-06 16:25:11
  */
-#include "Lesson13.h"
+#include "Lesson15_Diffuse.h"
 #include <glad/glad.h>
 #include "Image.h"
 #include <iostream>
@@ -34,121 +34,50 @@ namespace
 		glm::vec3(1.5f, 0.2f, -1.5f),
 		glm::vec3(-1.3f, 1.0f, -1.5f)};
 
+	// set up vertex data (and buffer(s)) and configure vertex attributes
+	// ------------------------------------------------------------------
 	float vertices[] = {
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
+		-0.5f, -0.5f, -0.5f, 0.0f, 0.0f, -1.0f,
+		0.5f, -0.5f, -0.5f, 0.0f, 0.0f, -1.0f,
+		0.5f, 0.5f, -0.5f, 0.0f, 0.0f, -1.0f,
+		0.5f, 0.5f, -0.5f, 0.0f, 0.0f, -1.0f,
+		-0.5f, 0.5f, -0.5f, 0.0f, 0.0f, -1.0f,
+		-0.5f, -0.5f, -0.5f, 0.0f, 0.0f, -1.0f,
 
-		-0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
+		-0.5f, -0.5f, 0.5f, 0.0f, 0.0f, 1.0f,
+		0.5f, -0.5f, 0.5f, 0.0f, 0.0f, 1.0f,
+		0.5f, 0.5f, 0.5f, 0.0f, 0.0f, 1.0f,
+		0.5f, 0.5f, 0.5f, 0.0f, 0.0f, 1.0f,
+		-0.5f, 0.5f, 0.5f, 0.0f, 0.0f, 1.0f,
+		-0.5f, -0.5f, 0.5f, 0.0f, 0.0f, 1.0f,
 
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
+		-0.5f, 0.5f, 0.5f, -1.0f, 0.0f, 0.0f,
+		-0.5f, 0.5f, -0.5f, -1.0f, 0.0f, 0.0f,
+		-0.5f, -0.5f, -0.5f, -1.0f, 0.0f, 0.0f,
+		-0.5f, -0.5f, -0.5f, -1.0f, 0.0f, 0.0f,
+		-0.5f, -0.5f, 0.5f, -1.0f, 0.0f, 0.0f,
+		-0.5f, 0.5f, 0.5f, -1.0f, 0.0f, 0.0f,
 
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
+		0.5f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f,
+		0.5f, 0.5f, -0.5f, 1.0f, 0.0f, 0.0f,
+		0.5f, -0.5f, -0.5f, 1.0f, 0.0f, 0.0f,
+		0.5f, -0.5f, -0.5f, 1.0f, 0.0f, 0.0f,
+		0.5f, -0.5f, 0.5f, 1.0f, 0.0f, 0.0f,
+		0.5f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f,
 
-		-0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-		-0.5f,
-		-0.5f,
+		-0.5f, -0.5f, -0.5f, 0.0f, -1.0f, 0.0f,
+		0.5f, -0.5f, -0.5f, 0.0f, -1.0f, 0.0f,
+		0.5f, -0.5f, 0.5f, 0.0f, -1.0f, 0.0f,
+		0.5f, -0.5f, 0.5f, 0.0f, -1.0f, 0.0f,
+		-0.5f, -0.5f, 0.5f, 0.0f, -1.0f, 0.0f,
+		-0.5f, -0.5f, -0.5f, 0.0f, -1.0f, 0.0f,
 
-		-0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		0.5f,
-		-0.5f,
-		0.5f,
-		-0.5f,
-	};
+		-0.5f, 0.5f, -0.5f, 0.0f, 1.0f, 0.0f,
+		0.5f, 0.5f, -0.5f, 0.0f, 1.0f, 0.0f,
+		0.5f, 0.5f, 0.5f, 0.0f, 1.0f, 0.0f,
+		0.5f, 0.5f, 0.5f, 0.0f, 1.0f, 0.0f,
+		-0.5f, 0.5f, 0.5f, 0.0f, 1.0f, 0.0f,
+		-0.5f, 0.5f, -0.5f, 0.0f, 1.0f, 0.0f};
 
 	glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
@@ -171,12 +100,12 @@ namespace
 
 } // namespace
 
-void Lesson13::prefix()
+void Lesson15::prefix()
 {
 	glEnable(GL_DEPTH_TEST);
 
 	lightSourceShader.read("1.light_cube.vs", "1.light_cube.fs");
-	lightShader.read("1.colors.vs", "1.colors.fs");
+	lightShader.read("2.1.basic_lighting_diffuse.vs", "2.1.basic_lighting_diffuse.fs");
 
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
@@ -187,8 +116,11 @@ void Lesson13::prefix()
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
 	// position attribute
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void *)0);
 	glEnableVertexAttribArray(0);
+
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void *)(3 * sizeof(float)));
+	glEnableVertexAttribArray(1);
 
 	m_arrProcessInput_MouseBtn.push_back([](int key, int isPressed, int bit) {
 		if (isPressedScreen != isPressed)
@@ -207,7 +139,7 @@ void Lesson13::prefix()
 	glBindBuffer(GL_ARRAY_BUFFER, lightVBO);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void *)0);
 	glEnableVertexAttribArray(0);
 
 	m_arrProcessInput_MouseMove.push_back([](double x, double y) {
@@ -276,7 +208,7 @@ void Lesson13::prefix()
 		cameraPos += cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
 	});
 }
-void Lesson13::show()
+void Lesson15::show()
 {
 
 	float currentFrame = glfwGetTime();
@@ -290,6 +222,7 @@ void Lesson13::show()
 	lightShader.setMat4("view", view);
 	lightShader.setVec3("objectColor", glm::vec3(1.0f, 0.5f, 0.31f));
 	lightShader.setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f));
+	lightShader.setVec3("lightPos", lightPos);
 
 	glm::mat4 model = glm::mat4(1.0f);
 	lightShader.setMat4("model", model);
@@ -306,6 +239,6 @@ void Lesson13::show()
 	glBindVertexArray(lightVAO);
 	glDrawArrays(GL_TRIANGLES, 0, 36);
 }
-void Lesson13::over()
+void Lesson15::over()
 {
 }
