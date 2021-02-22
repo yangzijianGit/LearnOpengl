@@ -22,6 +22,10 @@
 #include "Lesson13_Color.h"
 #include "Lesson14_Ambient.h"
 #include "Lesson15_Diffuse.h"
+#include "Lesson16_PhongLight.h"
+#include "Lesson17_Materials.h"
+#include "Lesson18_LightDiffuseTex.h"
+#include "Lesson19_LightSpecularTex.h"
 
 namespace
 {
@@ -88,7 +92,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson15();
+    OGL *pLesson = new Lesson19();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
