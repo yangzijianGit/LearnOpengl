@@ -28,6 +28,7 @@
 #include "Lesson19_LightSpecularTex.h"
 #include "Lesson20_LightSource_Direction.h"
 #include "Lesson21_LightSource_Point.h"
+#include "Lesson22_LightSource_Spot.h"
 
 namespace
 {
@@ -94,7 +95,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson21();
+    OGL *pLesson = new Lesson22();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
