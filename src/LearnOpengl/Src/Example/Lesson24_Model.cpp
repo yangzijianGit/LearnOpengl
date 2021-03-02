@@ -90,7 +90,7 @@ namespace
 
 	double mouseX = 0.0f;
 	double mouseY = 0.0f;
-	Model* outModel = nullptr;
+	Model *outModel = nullptr;
 
 } // namespace
 
@@ -98,7 +98,7 @@ void Lesson24::prefix()
 {
 	glEnable(GL_DEPTH_TEST);
 
-	lightShader.read("6.3.multiple_lights.vs", "6.3.multiple_lights.fs");
+	lightShader.read("1.model_loading.vs", "1.model_loading.fs");
 	lightSourceShader.read("1.light_cube.vs", "1.light_cube.fs");
 
 	m_arrProcessInput_MouseBtn.push_back([](int key, int isPressed, int bit) {
@@ -182,7 +182,7 @@ void Lesson24::prefix()
 		float cameraSpeed = 2.5 * deltaTime;
 		cameraPos += cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
 	});
-outModel = new Model("res/nanosuit/nanosuit.obj");
+	outModel = new Model("res/nanosuit/nanosuit.obj");
 }
 void Lesson24::show()
 {
@@ -197,6 +197,7 @@ void Lesson24::show()
 	lightShader.setMat4("projection", projection);
 	lightShader.setMat4("view", view);
 	glm::mat4 model = glm::mat4(1.0f);
+	model = glm::scale(model, glm::vec3(0.1f));
 	lightShader.setMat4("model", model);
 
 	// material properties
