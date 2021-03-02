@@ -30,6 +30,7 @@
 #include "Lesson21_LightSource_Point.h"
 #include "Lesson22_LightSource_Spot.h"
 #include "Lesson23_LightSource_Multi.h"
+#include "Lesson24_Model.h"
 
 namespace
 {
@@ -96,7 +97,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson23();
+    OGL *pLesson = new Lesson24();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });

@@ -8,7 +8,6 @@
 #include <iostream>
 #include <stdio.h>
 #include <memory.h>
-#include "Image.h"
 
 GLchar util::info[512] = {0};
 
@@ -93,4 +92,11 @@ unsigned int util::loadTexture(const char *path)
 		std::cerr << "ER:LOAD TEXTURE: Path error " << '\n';
 	}
 	return textureID;
+}
+
+unsigned int util::TextureFromFile(const char *path, const std::string &driectory, bool gamma)
+{
+	std::string filename = path;
+	filename = driectory + '/' + filename;
+	return loadTexture(filename.c_str());
 }

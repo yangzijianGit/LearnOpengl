@@ -5,7 +5,7 @@
  */
 #include "Lesson19_LightSpecularTex.h"
 #include <glad/glad.h>
-#include "Image.h"
+#include "Util.h"
 #include <iostream>
 #include "Shader.h"
 #include "glfw3.h"
