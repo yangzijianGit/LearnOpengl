@@ -17,6 +17,14 @@
 // 	fragColor = vec4(vec3(gl_FragCoord.z), 1.0);
 // }
 
+// #version 330 core
+// out vec4 fragColor;
+
+// void main()
+// {
+// 	gl_FragCoord.z = 0.5;
+// }
+
 #version 330 core
 out vec4 FragColor;
 
