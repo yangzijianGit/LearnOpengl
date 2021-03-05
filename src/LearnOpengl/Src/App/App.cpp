@@ -33,6 +33,8 @@
 #include "Lesson24_Model.h"
 #include "Lesson25_DepthTest.h"
 #include "Lesson26_StencilTest.h"
+#include "Lesson27_Blending.h"
+#include "Lesson28_Blending2.h"
 
 namespace
 {
@@ -99,7 +101,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson26();
+    OGL *pLesson = new Lesson28();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
