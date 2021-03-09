@@ -36,6 +36,7 @@
 #include "Lesson27_Blending.h"
 #include "Lesson28_Blending2.h"
 #include "Lesson29_CullFace.h"
+#include "Lesson30_FrameBuffer.h"
 
 namespace
 {
@@ -102,7 +103,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson29();
+    OGL *pLesson = new Lesson30();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
