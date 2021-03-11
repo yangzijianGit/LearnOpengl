@@ -11,6 +11,14 @@
 
 GLchar util::info[512] = {0};
 
+util::Image::Image() : data(nullptr), width(0), height(0), nrChannels(0)
+{
+}
+util::Image::~Image()
+{
+	if (data)
+		stbi_image_free(data);
+}
 void util::showCompileError(unsigned int shader)
 {
 	memset(info, 0, sizeof(info));
@@ -44,36 +52,50 @@ void util::showGlInfo()
 	std::cout << "Maximun nr of vertex attributes supported:" << nrAttributes << std::endl;
 }
 
+GLenum util::nrChannelToGLType(int nrChannels)
+{
+	GLenum format;
+	switch (nrChannels)
+	{
+	case 1:
+		format = GL_RED;
+		break;
+	case 3:
+		format = GL_RGB;
+		break;
+	case 4:
+		format = GL_RGBA;
+		break;
+	default:
+		throw "format type not supported.";
+	}
+	return format;
+}
+
+util::Image *util::loadImage(const char *path)
+{
+	util::Image *image = new util::Image();
+	// stbi_set_flip_vertically_on_load(true); // tell stb_image.h to flip loaded diffuseTex's on the y-axis.
+	image->data = stbi_load(path, &image->width, &image->height, &image->nrChannels, 0);
+	if (image->data == nullptr)
+		throw "ERROR: load image error. ";
+	return image;
+}
+
 unsigned int util::loadTexture(const char *path)
 {
 	unsigned int textureID;
 	glGenTextures(1, &textureID);
 
-	// stbi_set_flip_vertically_on_load(true); // tell stb_image.h to flip loaded diffuseTex's on the y-axis.
-	int width, height, nrComponents;
-	unsigned char *data = stbi_load(path, &width, &height, &nrComponents, 0);
-	if (data)
+	util::Image *image = nullptr;
+	try
 	{
-		try
+		image = loadImage(path);
+		if (image->data)
 		{
-
-			GLenum format;
-			switch (nrComponents)
-			{
-			case 1:
-				format = GL_RED;
-				break;
-			case 3:
-				format = GL_RGB;
-				break;
-			case 4:
-				format = GL_RGBA;
-				break;
-			default:
-				throw "format type not supported.";
-			}
+			GLenum format = nrChannelToGLType(image->nrChannels);
 			glBindTexture(GL_TEXTURE_2D, textureID);
-			glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
+			glTexImage2D(GL_TEXTURE_2D, 0, format, image->width, image->height, 0, format, GL_UNSIGNED_BYTE, image->data);
 			glGenerateMipmap(GL_TEXTURE_2D);
 
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, format == GL_RGBA ? GL_CLAMP_TO_EDGE : GL_REPEAT);
@@ -81,16 +103,12 @@ unsigned int util::loadTexture(const char *path)
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 		}
-		catch (const std::exception &e)
-		{
-			std::cerr << "ER:LOAD TEXTURE:" << e.what() << '\n';
-		}
-		stbi_image_free(data);
 	}
-	else
+	catch (const std::exception &e)
 	{
-		std::cerr << "ER:LOAD TEXTURE: Path error " << '\n';
+		std::cerr << "ER:LOAD TEXTURE:" << e.what() << '\n';
 	}
+	safe_delete(image);
 	return textureID;
 }
 
@@ -99,4 +117,41 @@ unsigned int util::TextureFromFile(const char *path, const std::string &driector
 	std::string filename = path;
 	filename = driectory + '/' + filename;
 	return loadTexture(filename.c_str());
+}
+
+unsigned int util::loadCubeMaps(const std::vector<std::string> &faces)
+{
+	if (faces.size() != 6)
+	{
+		std::cout << "ERROR:the number of cube map faces does not equal six.";
+		return 0;
+	}
+
+	unsigned int textureId = 0;
+	glGenTextures(1, &textureId);
+	glBindTexture(GL_TEXTURE_CUBE_MAP, textureId);
+
+	for (unsigned int i = 0; i < faces.size(); ++i)
+	{
+		util::Image *image = nullptr;
+		try
+		{
+			image = loadImage(faces[i].c_str());
+			if (image->data)
+			{
+				glTexImage2D(GL_TEXTURE_CUBE_MAP_POSITIVE_X + i, 0, nrChannelToGLType(image->nrChannels), image->width, image->height, 0, nrChannelToGLType(image->nrChannels), GL_UNSIGNED_BYTE, image->data);
+			}
+		}
+		catch (const std::exception &e)
+		{
+			std::cerr << e.what() << '\n';
+		}
+		safe_delete(image);
+	}
+	glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_R, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+	return textureId;
 }
