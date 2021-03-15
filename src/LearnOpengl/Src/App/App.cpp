@@ -38,6 +38,8 @@
 #include "Lesson29_CullFace.h"
 #include "Lesson30_FrameBuffer.h"
 #include "Lesson31_cubeMaps_skybox.h"
+#include "Lesson32_cubeMaps_skybox2.h"
+#include "Lesson33_cubeMaps_ubo.h"
 
 namespace
 {
@@ -104,7 +106,7 @@ bool App::Init()
 
 void App::Run()
 {
-    OGL *pLesson = new Lesson31();
+    OGL *pLesson = new Lesson33();
     pLesson->SetProcessFunction([=](int eFunctionKey) {
         return processInput(m_pWindow, eFunctionKey);
     });
